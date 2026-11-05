@@ -8,7 +8,7 @@ A method — and the scripts behind it — for making buildings for a voxel game
 It is written as an [Agent Skill](SKILL.md): any AI coding agent that can run commands and look at images can follow
 `SKILL.md` step by step, and so can a person.
 
-![Example blockout: a walled courtyard with a three-bay hall](examples/blockouts/hall-court.png)
+![Concept and voxel model: a walled courtyard house and a lecture hall](examples/showcase.jpg)
 
 ## Pipeline
 
@@ -137,7 +137,8 @@ ai-voxel-buildings/
 └── examples/
     ├── plan.json               a walled courtyard with a three-bay overhanging-gable hall
     ├── redraw_prompts.json     prompts for the two example blockouts
-    └── blockouts/              hall-single.png, hall-court.png
+    ├── blockouts/              hall-single.png, hall-court.png
+    └── showcase.jpg            concept + voxel model, courtyard house and lecture hall
 ```
 
 ## Recommended rules (summary)

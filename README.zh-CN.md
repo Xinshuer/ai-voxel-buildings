@@ -7,7 +7,7 @@
 
 整套写成一个 [Agent Skill](SKILL.md)：会跑命令、会看图的 AI 编程代理可以照着 `SKILL.md` 一步步做，人也可以。
 
-![例子白模：带院墙的三开间厅堂院落](examples/blockouts/hall-court.png)
+![概念图和体素模型：富户宅院和学堂讲堂](examples/showcase.jpg)
 
 ## 流程
 
@@ -130,7 +130,8 @@ ai-voxel-buildings/
 └── examples/
     ├── plan.json               带院墙的三开间悬山厅堂院落
     ├── redraw_prompts.json     两张例子白模的上色提示词
-    └── blockouts/              hall-single.png、hall-court.png
+    ├── blockouts/              hall-single.png、hall-court.png
+    └── showcase.jpg            概念图和体素模型：富户宅院、学堂讲堂
 ```
 
 ## 推荐规矩（摘要）
